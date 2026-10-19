@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./Header";
 import StatCard from "./StatCard";
 function Docs(){
-     const [read, setRead] = useState(0);
+    const [read, setRead] = useState(0);
   const [bookmarks, setBookmarks] = useState(0);
 
   function handleRead() {

@@ -2,6 +2,7 @@
 import Docs from "./components/Docs";
 import Sidebar from "./components/Sidebar";
 import Guide from "./Components/Guide";
+import Feedback from "./Components/FeedBack";
 function App() {
  
 
@@ -12,6 +13,7 @@ function App() {
       <Docs/>
 
      <Guide/>
+     <Feedback/>
     </div>
   );
 }
