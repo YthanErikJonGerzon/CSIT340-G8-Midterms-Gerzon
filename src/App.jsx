@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 
 function App() {
@@ -24,8 +24,9 @@ function App() {
       <Sidebar author = "Ythan Erik Jon F. Gerzon"/>
      
       <div className="flex items-end justify-between px-20 pt-10">
+        
         <div>
-          <header/>
+             <Header/>
           <div className="mt-6 flex gap-4">
             <button
               className="cursor-pointer rounded-lg bg-[#5C766D] px-8 py-3 text-xl font-bold text-[#EDE9E6]"
